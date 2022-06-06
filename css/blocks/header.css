@@ -1,0 +1,9 @@
+.header__col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin-right: 80px;
+}

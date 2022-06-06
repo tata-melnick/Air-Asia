@@ -1,0 +1,31 @@
+.icon-telegram {
+    background-image: url("../../assets/icons/telegram.png");
+}
+
+.icon-telegram:hover {
+    background-image: url("../../assets/icons/telegram.hover.png");
+}
+
+.icon-vk {
+    background-image: url("../../assets/icons/vk.png");
+}
+
+.icon-vk:hover {
+    background-image: url("../../assets/icons/vk.hover.png");
+}
+
+.icon-fb {
+    background-image: url("../../assets/icons/f.png");
+}
+
+.icon-fb:hover {
+    background-image: url("../../assets/icons/f.hover.png");
+}
+
+.icon-insta {
+    background-image: url("../../assets/icons/in.png");
+}
+
+.icon-insta:hover {
+    background-image: url("../../assets/icons/in.hover.png");
+}

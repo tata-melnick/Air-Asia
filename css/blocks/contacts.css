@@ -1,0 +1,15 @@
+.contacts__phone {
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.contacts__workhots {
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.contacts__call {
+    font-size: 11px;
+    line-height: 20px;
+    color: #9A9A9A;
+}

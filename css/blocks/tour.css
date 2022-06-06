@@ -1,0 +1,30 @@
+.tour__img img {
+    height: 145px;
+    width: 360px;
+}
+
+.tour__content {
+    padding: 25px;
+    border-radius: 5px;
+    background: #FFFFFF;
+    min-height: 245px;
+}
+
+.tour__title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.tour__conditions {
+    font-size: 16px;
+    color: #666666;
+    margin-bottom: 25px;
+}
+
+.tour__text {
+    font-size: 14px;
+    color: #303030;
+    margin-bottom: 40px;
+}
