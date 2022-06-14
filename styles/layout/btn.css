@@ -19,10 +19,8 @@
     background: #FFFFFF;
     border: 1px solid #F5170E;
     color: #F5170E;
-    padding: 18px 30px;
 }
 
-.btn-white:hover {
-    background: #F5170E;
-    color: #FFFFFF;
+.btn-short {
+    padding: 18px 30px;
 }

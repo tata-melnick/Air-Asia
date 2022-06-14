@@ -1,0 +1,47 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.header__col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header__logo {
+    margin-right: 80px;
+}
+
+.menu__list {
+    display: flex;
+    width: 265px;
+    justify-content: space-between;
+}
+
+.menu__link {
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.menu__link:hover {
+    color: #DA0100;
+}
+
+.contacts__phone {
+    text-decoration: none;
+    font-size: 26px;
+}
+
+.contacts__workhots {
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.contacts__call {
+    font-size: 11px;
+    line-height: 20px;
+    color: #9A9A9A;
+}

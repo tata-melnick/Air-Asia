@@ -1,0 +1,38 @@
+.page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.page-title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1;
+    margin-top: 95px;
+    margin-bottom: 115px;
+}
+
+.breadcrumbs__list {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin-bottom: 25px;
+
+}
+
+.breadcrumbs__item {
+    display: flex;
+    align-items: center;
+}
+
+.breadcrumbs__item:hover {
+    font-weight: bold;
+}
+
+.breadcrumbs__item:after {
+    content: "/";
+}
+
+.breadcrumbs__item:last-child:after {
+    display: none;
+}

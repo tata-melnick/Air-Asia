@@ -1,0 +1,90 @@
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #001821;
+    min-height: 150px;
+    width: 100%;
+    margin-top: auto;
+}
+
+.footer__container {
+    display: flex;
+    justify-content: space-between;
+    width: 1140px;
+}
+
+.footer__line {
+    border-top: 1px solid #9A9A9A;
+}
+
+.footer__col {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer__logo {
+    margin-right: 80px;
+}
+
+.footer__socials {
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+    margin-right: 75px;
+}
+
+.socials__list {
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+}
+
+.socials__item {
+    display: flex;
+    margin-right: 10px;
+}
+
+.socials__item:last-child {
+    margin-right: 0;
+}
+
+.socials__link {
+    display: block;
+    text-decoration: none;
+    width: 36px;
+    height: 36px;
+    background: center center no-repeat;
+}
+
+.icon-telegram {
+    background-image: url("../../assets/icons/telegram.png");
+}
+
+.icon-telegram:hover {
+    background-image: url("../../assets/icons/telegram.hover.png");
+}
+
+.icon-vk {
+    background-image: url("../../assets/icons/vk.png");
+}
+
+.icon-vk:hover {
+    background-image: url("../../assets/icons/vk.hover.png");
+}
+
+.icon-fb {
+    background-image: url("../../assets/icons/f.png");
+}
+
+.icon-fb:hover {
+    background-image: url("../../assets/icons/f.hover.png");
+}
+
+.icon-insta {
+    background-image: url("../../assets/icons/in.png");
+}
+
+.icon-insta:hover {
+    background-image: url("../../assets/icons/in.hover.png");
+}

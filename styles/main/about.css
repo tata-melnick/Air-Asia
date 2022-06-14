@@ -9,7 +9,7 @@
     content: "";
     width: 490px;
     height: 505px;
-    background: url("../../../assets/content/gates.png") center center / cover no-repeat;
+    background: url("../../assets/content/gates.png") center center / cover no-repeat;
     border-radius: 5px;
     display: block;
 }
@@ -18,13 +18,12 @@
     content: "";
     max-width: 785px;
     height: 455px;
-    background: url("../../../assets/content/mountains.png") center center / cover no-repeat;
+    background: url("../../assets/content/mountains.png") center center / cover no-repeat;
     border-radius: 5px;
     margin-top: 100px;
     margin-left: -135px;
     padding: 70px 80px;
-    width: 625px;
-    height: 315px;
+    width: 785px;
 }
 
 .about__content-title {

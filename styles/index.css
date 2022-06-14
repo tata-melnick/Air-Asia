@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap');
+
+@import "./layout/normalize.css";
+@import "./layout/base.css";
+@import "./layout/header.css";
+@import "./layout/btn.css";
+@import "./layout/paginator.css";
+@import "./layout/footer.css";
+@import "./layout/page.css";
+@import "./layout/main.css";
+
+@import "./main/index.css";
+@import "./reviews/index.css";
+@import "./services/index.css";
