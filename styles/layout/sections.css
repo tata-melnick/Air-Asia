@@ -1,0 +1,45 @@
+.section {
+    display: flex;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+
+.container {
+    overflow: hidden;
+    width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.main {
+    background-color: #FFFFFF;
+    color: #000000;
+    height: max-content;
+}
+
+.main-wrap {
+    display: flex;
+    flex-direction: column;
+    margin: 100px 0 90px;
+}
+
+.top-line {
+    min-height: 410px;
+    background: url("../../assets/backgrounds/headline.png") center top no-repeat;
+    background-color: #001821;
+}
+
+.inner {
+    background: #F4F5F5;
+    color: #000000;
+    height: max-content;
+    padding: 90px 0 85px;
+}
+
+.inner-section__title {
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 56px;
+    margin-bottom: 65px;
+}

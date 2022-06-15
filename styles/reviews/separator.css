@@ -1,0 +1,25 @@
+.separator {
+    background: url("../../assets/backgrounds/rectangle.png") center no-repeat;
+    background-color: rgb(242 165 143);
+    min-height: 360px;
+}
+
+.separator__content {
+    display: flex;
+    align-items: center;
+    height: max-content;
+    width: 100%;
+    margin-top: 25px;
+}
+
+.separator__title {
+    font-size: 48px;
+    font-weight: bold;
+    width: 595px;
+    margin-right: 25px;
+}
+
+.separator img {
+    height: 340px;
+    width: 485px;
+}
