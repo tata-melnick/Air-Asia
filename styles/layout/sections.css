@@ -1,36 +1,32 @@
-.section {
-    display: flex;
-    justify-content: center;
-    height: 100%;
-    width: 100%;
-}
-
-.container {
-    overflow: hidden;
-    width: 1140px;
-    height: 100%;
-    margin: 0 auto;
-}
-
 .main {
-    background-color: #FFFFFF;
+    width: 100%;
+    background: #F2F2F2;
     color: #000000;
     height: max-content;
-}
-
-.main-wrap {
-    display: flex;
-    flex-direction: column;
-    margin: 100px 0 90px;
+    padding: 100px 0 90px;
 }
 
 .top-line {
+    width: 100%;
     min-height: 410px;
     background: url("../../assets/backgrounds/headline.png") center top no-repeat;
     background-color: #001821;
 }
 
+.top-line__header {
+    margin-bottom: 95px;
+}
+
+.top-line__title {
+    font-size: 72px;
+    font-weight: bold;
+    line-height: 1;
+    margin-bottom: 115px;
+}
+
 .inner {
+    display: block;
+    width: 100%;
     background: #F4F5F5;
     color: #000000;
     height: max-content;

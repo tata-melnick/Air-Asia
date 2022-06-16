@@ -4,11 +4,6 @@
     margin-bottom: 220px;
 }
 
-.hero-page {
-    background: url("../../assets/backgrounds/1.png") center top no-repeat, url("../../assets/backgrounds/2.png") bottom 150px center no-repeat;
-    background-color: #001821;
-}
-
 .hero__content {
     display: flex;
     flex-direction: column;

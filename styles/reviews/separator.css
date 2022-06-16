@@ -2,6 +2,7 @@
     background: url("../../assets/backgrounds/rectangle.png") center no-repeat;
     background-color: rgb(242 165 143);
     min-height: 360px;
+    width: 100%;
 }
 
 .separator__content {

@@ -9,6 +9,8 @@ body {
     line-height: 1.42;
     -webkit-font-smoothing: antialiased;
     -moz-osxo-font-smoothing: grayscale;
+    background: url("../../assets/backgrounds/1.png") center top no-repeat, url("../../assets/backgrounds/2.png") bottom 150px center no-repeat;
+    background-color: #001821;
 }
 
 a {
@@ -48,6 +50,13 @@ p {
 }
 
 .wrapper {
+    overflow: hidden;
+    width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+.container {
     overflow: hidden;
     width: 1140px;
     height: 100%;

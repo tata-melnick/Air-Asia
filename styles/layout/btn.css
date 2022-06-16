@@ -21,6 +21,10 @@
     color: #F5170E;
 }
 
+.btn-white:hover {
+    color: #fff;
+}
+
 .btn-short {
     padding: 18px 30px;
 }
