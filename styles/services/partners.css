@@ -19,12 +19,12 @@
     width: 100%;
     height: 120px;
     align-items: center;
-    justify-content: center;
     filter: grayscale(100%);
 }
 
 .partners__link:hover {
     filter: grayscale(0);
+    transition: 0.4s;
 }
 
 .partners__link img {

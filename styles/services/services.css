@@ -1,7 +1,7 @@
 .services__list {
     display: flex;
     flex-direction: column;
-    min-height: max-content;
+    height: max-content;
 }
 
 .services__item {

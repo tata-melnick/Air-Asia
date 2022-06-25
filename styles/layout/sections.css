@@ -9,8 +9,6 @@
 .top-line {
     width: 100%;
     min-height: 410px;
-    background: url("../../assets/backgrounds/headline.png") center top no-repeat;
-    background-color: #001821;
 }
 
 .top-line__header {

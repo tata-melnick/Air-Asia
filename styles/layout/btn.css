@@ -13,6 +13,11 @@
 .btn:hover {
     background: #DA0100;
     box-shadow: 0px 2px 4px rgba(218, 1, 0, 0.3);
+    transition: 0.3s;
+}
+
+.btn-welcome {
+    padding: 20px 60px;
 }
 
 .btn-white {

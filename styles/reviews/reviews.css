@@ -11,8 +11,6 @@
 
 .reviews__item {
     display: inline-flex;
-    flex-direction: column;
-    justify-content: space-between;
     background: #F4F5F5;
     color: #1A1B1E;
     border-radius: 5px;
@@ -24,7 +22,6 @@
 
 .reviewer__header {
     display: flex;
-    flex-direction: row;
     align-items: center;
     min-height: 140px;
     margin-bottom: 25px;
@@ -40,7 +37,6 @@
 .reviewer__userdata {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
 }
 
 .reviewer__user {
@@ -54,6 +50,7 @@
 .reviewer__user:hover {
     color: #2E77A4;
     text-decoration: underline;
+    transition: 0.3s;
 }
 
 .reviewer__user:after {
@@ -63,7 +60,6 @@
 
 .reviewer__tags {
     display: flex;
-    align-items: flex-start;
 }
 
 .tag {

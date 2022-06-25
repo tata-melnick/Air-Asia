@@ -8,7 +8,6 @@
 .header__col {
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
 
 .header__logo {
@@ -28,6 +27,7 @@
 
 .menu__link:hover {
     color: #DA0100;
+    transition: 0.4s;
 }
 
 .contacts__phone {
@@ -37,11 +37,66 @@
 
 .contacts__workhots {
     font-size: 13px;
+    color: #98A4A8;
     text-decoration: underline;
+}
+
+.contacts__workhots:hover {
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.contacts-wrap {
+    position: relative;
+}
+
+.contacts__table {
+    position: absolute;
+    width: 155px;
+    top: -1000px;
+    opacity: 0;
+    transition: opacity 0.8s;
+    right: 0;
+    text-align: start;
+    background: #CDD1D2;
+    border-radius: 5px;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #1E1F20;
+    padding: 15px;
+}
+
+.contacts__table::before {
+    content: "";
+    width: 160px;
+    height: 20px;
+}
+
+.contacts-wrap:hover .contacts__table {
+    top: 30px;
+    opacity: 1;
 }
 
 .contacts__call {
     font-size: 11px;
     line-height: 20px;
     color: #9A9A9A;
+}
+
+.table-triangie {
+    position: absolute;
+    border: 20px solid transparent;
+    width: 0;
+    height: 0;
+    top: -15px;
+    right: 30px;
+    border-bottom-color: #CDD1D2;
+    border-top: 0;
+    border-left-width: 20px;
+    border-right-width: 20px;
+}
+
+.table-bold {
+    font-weight: bold;
 }

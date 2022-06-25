@@ -18,16 +18,29 @@
     width: 230px;
 }
 
+.paginator__item {
+    border-radius: 50%;
+}
+
 .paginator__item:hover {
     background: #FFFFFF;
     color: #F5170E;
-    border-radius: 50%;
+    transition: 0.5s;
 }
 
 .paginator__active {
     background: #FFFFFF;
     color: #F5170E;
-    border-radius: 50%;
+}
+
+.paginator__item-red:hover {
+    background: #F5170E;
+    color: #FFFFFF;
+}
+
+.paginator__active-red {
+    background: #F5170E;
+    color: #FFFFFF;
 }
 
 .paginator__number {
@@ -38,16 +51,4 @@
     height: 30px;
     text-decoration: none;
     font-weight: bold;
-}
-
-.paginator__item-red:hover {
-    background: #F5170E;
-    color: #FFFFFF;
-    border-radius: 50%;
-}
-
-.paginator__active-red {
-    background: #F5170E;
-    color: #FFFFFF;
-    border-radius: 50%;
 }
