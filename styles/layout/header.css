@@ -30,24 +30,32 @@
     transition: 0.4s;
 }
 
+.contacts {
+    display: flex;
+    width: max-content;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
 .contacts__phone {
     text-decoration: none;
     font-size: 26px;
+}
+
+.contacts-wrap {
+    position: relative;
+    cursor: pointer;
 }
 
 .contacts__workhots {
     font-size: 13px;
     color: #98A4A8;
     text-decoration: underline;
+    width: max-content;
 }
 
-.contacts__workhots:hover {
+.contacts-wrap:hover .contacts__workhots {
     color: #FFFFFF;
-    cursor: pointer;
-}
-
-.contacts-wrap {
-    position: relative;
 }
 
 .contacts__table {
