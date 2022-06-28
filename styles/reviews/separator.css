@@ -1,6 +1,6 @@
 .separator {
     background: url("../../assets/backgrounds/rectangle.png") center no-repeat;
-    background-color: rgb(242 165 143);
+    background-color: #ffa98e;
     min-height: 360px;
     width: 100%;
 }
