@@ -61,17 +61,17 @@
 }
 
 .icon-telegram {
-    background: url('../../assets/icons/css_sprites.png') -122px -10px;
+    background: url('../../assets/img/icons/css_sprites.png') -122px -10px;
 }
 
 .icon-vk {
-    background: url('../../assets/icons/css_sprites.png') -10px -122px;
+    background: url('../../assets/img/icons/css_sprites.png') -10px -122px;
 }
 
 .icon-fb {
-    background: url('../../assets/icons/css_sprites.png') -10px -10px;
+    background: url('../../assets/img/icons/css_sprites.png') -10px -10px;
 }
 
 .icon-insta {
-    background: url('../../assets/icons/css_sprites.png') -10px -66px;
+    background: url('../../assets/img/icons/css_sprites.png') -10px -66px;
 }

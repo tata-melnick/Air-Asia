@@ -9,7 +9,7 @@
     content: "";
     width: 490px;
     height: 505px;
-    background: url("../../assets/content/gates.png") center center / cover no-repeat;
+    background: url("../../assets/img/content/gates.png") center center / cover no-repeat;
     border-radius: 5px;
     display: block;
 }
@@ -18,7 +18,7 @@
     content: "";
     max-width: 785px;
     height: max-content;
-    background: url("../../assets/content/mountains.png") center center / cover no-repeat;
+    background: url("../../assets/img/content/mountains.png") center center / cover no-repeat;
     border-radius: 5px;
     margin-top: 100px;
     margin-left: -135px;
