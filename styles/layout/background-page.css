@@ -1,14 +1,14 @@
 .welcome-page {
-    background: url("../../assets/img/backgrounds/bg.png") center center no-repeat;
+    background: url("../../img/backgrounds/bg.png") center center no-repeat;
     background-color: #001821;
 }
 
 .main-page {
-    background: url("../../assets/img/backgrounds/1.png") center top no-repeat, url("../../assets/img/backgrounds/2.png") bottom 150px center no-repeat;
+    background: url("../../img/backgrounds/1.png") center top no-repeat, url("../../img/backgrounds/2.png") bottom 150px center no-repeat;
     background-color: #001821;
 }
 
 .page {
-    background: url("../../assets/img/backgrounds/headline.png") center top no-repeat;
+    background: url("../../img/backgrounds/headline.png") center top no-repeat;
     background-color: #001821;
 }

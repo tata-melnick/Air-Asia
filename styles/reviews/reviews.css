@@ -54,7 +54,7 @@
 }
 
 .reviewer__user:after {
-    content: url("../../assets/img/icons/vk-blue.png");
+    content: url("../../img/icons/vk-blue.png");
     height: 30px;
 }
 

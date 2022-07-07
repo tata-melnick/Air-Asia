@@ -29,11 +29,11 @@
 }
 
 .news__item:first-child {
-    background: url("../../assets/img/content/plain.png") center center / cover no-repeat;
+    background: url("../../img/content/plain.png") center center / cover no-repeat;
 }
 
 .news__item:last-child {
-    background: url("../../assets/img/content/Surfer.png") center center / cover no-repeat;
+    background: url("../../img/content/Surfer.png") center center / cover no-repeat;
 }
 
 .new__content {
